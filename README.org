@@ -1,0 +1,24 @@
+#+STARTUP: indent
+#+OPTIONS: ^:nil
+#+BEGIN_COMMENT
+.. title:
+.. slug:
+.. date: 2020-05-05 21:26:26
+.. tags:
+.. category:
+.. link:
+.. description:
+.. type:
+.. auth: inmove
+.. email: lisper.inmove@gmail.com
+
+#+END_COMMENT
+
+* Redis Version
+5.0.8
+* Usage
+Just for create a development environment quickly.
+1. install redis
+2. ./create-config.sh port0 [,port1,port2]
+3. ./start-redis-cluster.sh --start
+4. ./start-redis-cluster.sh --stop

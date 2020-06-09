@@ -22,3 +22,4 @@ Just for create a development environment quickly.
 2. ./create-config.sh port0 [,port1,port2]
 3. ./start-redis-cluster.sh --start
 4. ./start-redis-cluster.sh --stop
+5. redis-cli --cluster create ip0:port0 ip1:port1
